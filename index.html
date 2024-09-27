@@ -1,1 +1,44 @@
-first
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>BREEZE Group</title>
+        <link rel="stylesheet" href="css/style.css">
+        <!--下の階層にあるファイルは、"フォルダ名/ファイル名"で記述-->
+        <!--上の階層にあるファイルは、"../ファイル名"で記述-->
+    </head>
+    <body>
+        <header>
+            <h1>会社紹介</h1>
+        </header>
+        <main id="wrap">
+            <!--"id"と"class"は名前をつける役割-->
+           <!--固有の名前は"id"、グループ名は"class"-->
+            <div class="profile">
+                <img src="img/breeze.png" alt="Breeze会社のロゴ">
+                <!--alt属性を指定すると、画像が出なくてもそのテキストが表示される-->
+                    <!--SEO対策や、アクセシビリティの向上にもつながる-->
+                <ul class="prof_list">
+                    <li>
+                        <div class="list_name">名前</div>
+                        <div class="list_content">ブリーズグループ</div>
+                    </li>
+                    <li>
+                        <div class="list_name">企業理念</div>
+                        <div class="list_content">楽しいを作ろう！</div>
+                    </li>
+                    <li>
+                        <div class="list_name">事業概要</div>
+                        <div class="list_content">開発、SES、メディアetc</div>
+                    </li>
+                    <li>
+                        <div class="list_name">代表</div>
+                        <div class="list_content">日笠健(全体)、松藤絢子（USER）</div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </main>
+        
+    </body>
+</html>

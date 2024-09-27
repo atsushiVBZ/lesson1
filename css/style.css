@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-color: #64b9e6;
+    font-family: Helvetica, "游ゴシック","Yu Gothic";
+    color: #7b7b7b;
+    width: 100%
+}
+
+h1,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color:white;
+    height:60px;
+    font-size:30px;
+    text-align:center;
+}
+
+.profile{
+    text-align:center;
+    background-color:white;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 30px;
+}
+
+img{
+    width:30%
+}
+
+.list_name{
+    background-color: #d6eff9;
+    color:#64b9e6;
+    font-size: 18px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list_content{
+    padding: 20px 0;
+}
+
+.prof_list{
+    list-style-type:none ;
+    padding-bottom: 20px;
+}
+
+/*
+幅や高さの％は親要素に依存する。
+*/
+
+/*
+heightプロパティで高さを指定していない場合は
+中の要素によって高さが規定される。
+※今回なら画像
+*/
